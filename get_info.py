@@ -101,7 +101,7 @@ Output
 current_date = datetime.now().strftime("%Y.%m.%d")
 
 # Construct the output path and filename
-output = f"_outputs/{current_date}-{output_suffix}.csv"
+output = f"output/{current_date}-{output_suffix}.csv"
 
 # Open the CSV file for writing
 with open(output, mode="w", newline="") as csv_file:
