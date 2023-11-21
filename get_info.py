@@ -11,8 +11,7 @@ from dotenv import load_dotenv
 from pynetbox import api
 
 # Load environment variables from the .env file
-dotenv_path = "var/.env"
-load_dotenv(dotenv_path)
+load_dotenv()
 
 '''
 API
